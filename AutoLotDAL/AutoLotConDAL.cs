@@ -53,7 +53,7 @@ namespace AutoLotConnectedLayer
                 param.ParameterName = "@PetName";
                 param.Value = petName;
                 param.SqlDbType = SqlDbType.Char;
-                param.Size = 11;
+                param.Size = 10;
                 cmd.Parameters.Add(param);
 
                 cmd.ExecuteNonQuery();
